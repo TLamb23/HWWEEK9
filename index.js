@@ -60,7 +60,6 @@ async function init() {
   console.log(data);
 
   writeToFile("README.md", await generateMarkdown(data));
-  console.log("file generated...")
 }
 
 init();
